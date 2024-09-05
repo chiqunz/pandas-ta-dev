@@ -4,20 +4,20 @@ from setuptools import setup
 long_description = "Pandas Technical Analysis, Pandas TA, is a free, Open Source, and easy to use Technical Analysis library with a Pandas DataFrame Extension. It has over 200 indicators, utility functions and TA Lib Candlestick Patterns. Beyond TA feature generation, it has a flat library structure, it's own DataFrame Extension (called 'ta'), Custom Indicator Studies and Independent Custom Directory."
 
 setup(
-    name="pandas_ta",
+    name="pandas_ta_dev",
     packages=[
-        "pandas_ta",
-        "pandas_ta.candles",
-        "pandas_ta.cycles",
-        "pandas_ta.momentum",
-        "pandas_ta.overlap",
-        "pandas_ta.performance",
-        "pandas_ta.statistics",
-        "pandas_ta.transform",
-        "pandas_ta.trend",
-        "pandas_ta.utils",
-        "pandas_ta.volatility",
-        "pandas_ta.volume"
+        "pandas_ta_dev",
+        "pandas_ta_dev.candles",
+        "pandas_ta_dev.cycles",
+        "pandas_ta_dev.momentum",
+        "pandas_ta_dev.overlap",
+        "pandas_ta_dev.performance",
+        "pandas_ta_dev.statistics",
+        "pandas_ta_dev.transform",
+        "pandas_ta_dev.trend",
+        "pandas_ta_dev.utils",
+        "pandas_ta_dev.volatility",
+        "pandas_ta_dev.volume"
     ],
     version=".".join(("0", "4", "19b")),
     description=long_description,
