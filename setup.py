@@ -4,7 +4,7 @@ from setuptools import setup
 long_description = "Pandas Technical Analysis, Pandas TA, is a free, Open Source, and easy to use Technical Analysis library with a Pandas DataFrame Extension. It has over 200 indicators, utility functions and TA Lib Candlestick Patterns. Beyond TA feature generation, it has a flat library structure, it's own DataFrame Extension (called 'ta'), Custom Indicator Studies and Independent Custom Directory."
 
 setup(
-    name="pandas_ta_dev",
+    name="pandas_ta",
     packages=[
         "pandas_ta",
         "pandas_ta.candles",
